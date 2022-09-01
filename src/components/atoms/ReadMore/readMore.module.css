@@ -1,0 +1,11 @@
+
+.readMoreWrapper {
+  display: inline-flex;
+  align-items: center;
+}
+.readMoreActionText {
+  color: blue;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 0 .5em 0 .2em;
+}

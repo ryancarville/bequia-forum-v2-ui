@@ -1,0 +1,9 @@
+.postCardWrapper {
+  background-color: rgb(247, 247, 247);
+  width: 100%;
+  min-height: 5em;
+  border: .3em solid lightblue;
+  box-shadow: 10em lightgray;
+  padding: 1em;
+  color: lightseagreen;
+}

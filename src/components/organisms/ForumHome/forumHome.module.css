@@ -1,0 +1,44 @@
+.forumGrid {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(auto);
+}
+
+.forumGridItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  border: 1px solid rgb(172, 172, 172);
+  box-shadow: 0 10px 10px 0 rgba(127, 127, 127, 0.1);
+  padding: 1em;
+  font-size: 0.9em;
+}
+
+.forumDetails {
+  margin: 0em;
+  padding: 0em;
+  flex: 2;
+}
+
+.forumDetails a {
+  color: blue;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.forumDetails p {
+  margin: .4em 0 0 0;
+}
+.forumStatsWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+.forumStats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

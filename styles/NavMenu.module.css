@@ -1,0 +1,14 @@
+.navWrapper {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+}
+.navList {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.navListItem {
+
+}

@@ -1,0 +1,71 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "noUnusedLocals": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@Atoms/*": [
+        "src/components/atoms/*"
+      ],
+      "@Molecules/*": [
+        "src/components/molecules/*"
+      ],
+      "@Organisms/*": [
+        "src/components/organisms/*"
+      ],
+      "@HOCS/*": [
+        "src/hocs/*"
+      ],
+      "@Hooks/*": [
+        "src/hooks/*"
+      ],
+      "@Shared/*": [
+        "src/shared/*"
+      ],
+      "@Layouts/*": [
+        "src/components/layouts/*"
+      ],
+      // "@Store/*": [
+      //   "src/store/*"
+      // ],
+      "@Services/*": [
+        "src/services/*"
+      ]
+      // "@WithReduxSaga/*": [
+      //   "src/withReduxSaga/*"
+      // ],
+      // "@Messages/*": [
+      //   "src/messages/*"
+      // ],
+    },
+    "incremental": true
+  },
+  "exclude": [
+    "node_modules",
+    ".next",
+    "out",
+    "next.config.js"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
